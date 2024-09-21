@@ -1,0 +1,15 @@
+operator = input ("Enter your operator : (+,-,*,/) : ")
+num1 = float(input("Enter your first number, honey ! :" ))
+num2 = float(input("Enter your second number,honey ! : "))
+
+if operator == "+" :
+  print(num1+num2 , 5)
+elif operator == "-":
+  print (num1-num2 , 5)
+elif operator == "*" : 
+  print (num1*num2 , 5)
+elif operator == "/" :
+  print (num1/num2 , 5) 
+
+else : 
+  print (f"Sorry,{operator} Doesn't exist in my calculator")
